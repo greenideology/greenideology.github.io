@@ -1,3 +1,13 @@
+---
+title: "이산수학 논리와 명제"
+tags:
+  - Blog
+  - MathJax
+  - Jekyll
+  - LaTeX
+use_math: true
+classes: wide
+---
 # 목차
 
 - [명제](#명제)
