@@ -6,8 +6,9 @@ tags:
   - Jekyll
   - LaTeX
 use_math: true
+classes: wide
 ---
-# 행렬
+# 행렬1
 
 실수들의 사각형 배열을 행렬(matrix)이라고 하며 m개의 행(row) n개의 열(column)을 가진 m $\times$ n 행렬은 다음과 같이 나타낸다
 $$
