@@ -1,5 +1,5 @@
 ---
-title: "Jekyll Github 블로그에 MathJax로 수학식 표시하기"
+title: "이산수학 행렬"
 tags:
   - Blog
   - MathJax
