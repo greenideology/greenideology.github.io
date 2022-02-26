@@ -74,8 +74,8 @@
 ### 모순증명법
 
 - 모순증명법은 주어진 명제를 부정한 뒤 그 식을 전개할 때 결론이 모순임을 보여 명제가 참임을 증명하는 방법
-- $$p \rightarrow q$$  와 $$\lnot (p \and \lnot q)$$ 가 동치인 점을 이용한다
-- $$(p \and \lnot q)$$ 가 참이라고 가정한뒤에 결과가 모순임을 찾는다
+- $$p \rightarrow q$$  와 $$\lnot (p \wedge \lnot q)$$ 가 동치인 점을 이용한다
+- $$(p \wedge \lnot q)$$ 가 참이라고 가정한뒤에 결과가 모순임을 찾는다
 
 
 
@@ -122,5 +122,5 @@ $$factorial(n) = n!$$ 이라고 하자
 
 	$$n\ge 1$$ 일때
 
-	   $$ factorial(n) = factorial(n-1) \times n$$
+	$$ factorial(n) = factorial(n-1) \times n$$
 
