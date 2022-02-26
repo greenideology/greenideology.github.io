@@ -1,3 +1,13 @@
+---
+title: "이산수학 증명"
+tags:
+  - 이산수학
+  - proof
+  - 증명
+  - LaTeX
+use_math: true
+classes: wide
+---
 # 목차
 
 - [수학적 귀납법](#수학적-귀납법)
