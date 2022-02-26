@@ -126,49 +126,49 @@
 
 #### 멱등법칙
 
-- $$p \and p \equiv p$$
-- $$p \or p \equiv p$$
+- $$p \land p \equiv p$$
+- $$p \lor p \equiv p$$
 
 #### 항등법칙
 
-- $$p \and T \equiv p$$  
+- $$p \land T \equiv p$$  
 
-- $$p \or F \equiv p$$
+- $$p \lor F \equiv p$$
 
 #### 지배법칙
 
-- $$p \or T \equiv T$$
-- $$p \and F \equiv F$$
+- $$p \lor T \equiv T$$
+- $$p \land F \equiv F$$
 
 #### 부정법칙
 
-- $$p \or (\lnot p) \equiv T$$
-- $$p \and (\lnot p) \equiv F$$
+- $$p \lor (\lnot p) \equiv T$$
+- $$p \land (\lnot p) \equiv F$$
 
 #### 교환법칙
 
-- $$p \and q \equiv q \and p $$
+- $$p \land q \equiv q \land p $$
 
-- $$p \or q \equiv q or p$$
+- $$p \lor q \equiv q \lor p$$
 
 #### 결합법칙
 
-- $$p \or (q \or r) \equiv (p \or q) \or r$$
-- $$p \and (q \and r) \equiv (p \and q) \and r$$
+- $$p \lor (q \lor r) \equiv (p \lor q) \lor r$$
+- $$p \land (q \land r) \equiv (p \land q) \land r$$
 
 #### 분배법칙
 
-- $$p \or (q \and r) \equiv (p \or q) \and (p \or r)$$
-- $$p \and (q \or r) \equiv (p \and q) \or (q \and r)$$
+- $$p \lor (q \land r) \equiv (p \lor q) \land (p \lor r)$$
+- $$p \land (q \lor r) \equiv (p \land q) \lor (q \land r)$$
 
 #### 드 모르간 법칙
 
-- $$\lnot(p \and q) \equiv (\lnot p) \or (\lnot q)$$
-- $$\lnot(p \or q) \equiv (\lnot p) \and (\lnot q)$$
+- $$\lnot(p \land q) \equiv (\lnot p) \lor (\lnot q)$$
+- $$\lnot(p \lor q) \equiv (\lnot p) \land (\lnot q)$$
 
 #### 함축법칙
 
-- $$p \rightarrow q \equiv (\lnot p) \or q$$
+- $$p \rightarrow q \equiv (\lnot p) \lor q$$
 
 #### 대우법칙
 
@@ -176,7 +176,7 @@
 
 #### 귀류법칙
 
-- $$p \rightarrow q \equiv (p \and (\lnot q)) \rightarrow F  $$
+- $$p \rightarrow q \equiv (p \land (\lnot q)) \rightarrow F  $$
 
 
 
@@ -212,10 +212,10 @@ $$P(x)$$ 를 논의영역 $$D$$를 갖는 명제함수라고 하자.
 
   $$\forall xP(x)$$ 
 
-        $$D$$ 에 속하는 모든 $$x$$에 대하여 $$P(x)$$가 참일때만  $$\forall xP(x)$$가 참이 된다는 뜻이다
+  $$D$$ 에 속하는 모든 $$x$$에 대하여 $$P(x)$$가 참일때만  $$\forall xP(x)$$가 참이 된다는 뜻이다
 
 - 이때 'D에 속하는 어떤 $$x$$에 대하여 $$P(x)$$가 참인 $$x$$가 존재한다' 라는 문장은 다음과 같이 나타낸다
 
   $$\exists xP(x)$$
 
-       $$D$$ 에 속하는 $$x$$중 $$P(x)$$를 참으로 만드는 $$x$$가 적어도 하나는 존재한다는 뜻이다
+  $$D$$ 에 속하는 $$x$$중 $$P(x)$$를 참으로 만드는 $$x$$가 적어도 하나는 존재한다는 뜻이다
