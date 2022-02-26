@@ -1,3 +1,12 @@
+---
+title: "Jekyll Github 블로그에 MathJax로 수학식 표시하기"
+tags:
+  - Blog
+  - MathJax
+  - Jekyll
+  - LaTeX
+use_math: true
+---
 # 행렬
 
 실수들의 사각형 배열을 행렬(matrix)이라고 하며 m개의 행(row) n개의 열(column)을 가진 m $\times$ n 행렬은 다음과 같이 나타낸다
