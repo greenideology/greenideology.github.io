@@ -1,3 +1,13 @@
+---
+title: "이산수학 함수"
+tags:
+  - 이산수학
+  - function
+  - 함수
+  - LaTeX
+use_math: true
+classes: wide
+---
 # 목차
 
 - [기본개념](#기본개념)
