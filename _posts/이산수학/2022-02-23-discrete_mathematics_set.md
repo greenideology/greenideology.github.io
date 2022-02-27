@@ -1,9 +1,9 @@
 ---
-title: "이산수학 증명"
+title: "이산수학 집합"
 tags:
   - 이산수학
-  - proof
-  - 증명
+  - set
+  - 집합
   - LaTeX
 use_math: true
 classes: wide
