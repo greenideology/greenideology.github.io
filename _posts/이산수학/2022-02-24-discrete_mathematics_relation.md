@@ -1,3 +1,13 @@
+---
+title: "이산수학 관계"
+tags:
+  - 이산수학
+  - relation
+  - 관계
+  - LaTeX
+use_math: true
+classes: wide
+---
 # 목차
 
 - [관계](#관계)
