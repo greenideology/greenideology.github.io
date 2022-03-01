@@ -1,6 +1,7 @@
 ---
 title: "이산수학 집합"
 tags:
+  - discrete mathematics
   - 이산수학
   - set
   - 집합
@@ -8,6 +9,7 @@ tags:
 use_math: true
 classes: wide
 ---
+
 # 목차
 
 - [곱집합 멱집합](#곱집합-멱집합)
@@ -20,10 +22,13 @@ classes: wide
 
 - 내용 규정이 명확한 대상의 모임을 **집합** 이라고 하고 그 대상들을 **원소** 라고 한다
 
-- '$$a$$ 는 $$A$$ 집합의 원소이다' 는 **$$a \in A$$** 로 표현한다
+- $$a$$ 는 $$A$$ 집합의 원소이다 는 **$$a \in A$$** 로 표현한다
 
-- 집합 $$A$$가 $$n$$개의 원소를 갖는 유한집합일 때 $$n$$을 **$$A$$의 기수**(cardinality)라고 하며 $$|A|$$ 로 나타낸다
-- 두 집합 $$A$$와 $$B$$에 대하여 $$A \cap B = \varnothing $$   이면 집합 $$A$$ 와 $$B$$를 **서로소** 라고 한다
+- 집합 $$A$$가 $$n$$개의 원소를 갖는 유한집합일 때 $$n$$을 **$$A$$의 기수**(cardinality)라고 하며 
+
+  $$|A|$$ 로 나타낸다
+
+- 두 집합 $$A$$와 $$B$$에 대하여 $$A \cap B = \varnothing$$   이면 집합 $$A$$ 와 $$B$$를 **서로소** 라고 한다
 
 
 
@@ -37,7 +42,9 @@ classes: wide
 
 $$A \times B = \{(a.b)|a \in A \land b \in B\}$$
 
-또한 곱집합 $$A \times B$$  의 기수는 $$|A \times  B| = |A| \times |B|$$ 이다
+또한 곱집합 $$A \times B$$  의 기수는
+
+ $$|A \times  B| = |A| \times |B|$$ 이다
 
 
 
@@ -70,7 +77,7 @@ $$(x,y)\in A \times B \land  (x,y)\in A \times C$$
 
 $$P(X) = \{Y | Y \subset X\}$$
 
-집합 X의 기수(원소의 개수)가 n이면 P(X)의 기수는 2^n 이다
+집합 $$X$$의 기수(원소의 개수)가 $$n$$이면 $$P(X)$$의 기수는 $$2^n$$ 이다
 
 
 
@@ -83,8 +90,8 @@ $$P(X) = \{Y | Y \subset X\}$$
 즉, $$S$$의 분할$$ \{S_1,S_2,S_3...Sₖ\}$$은 다음과 같은 성질을 만족하는 집합류이다
 
 1. $$S_1,S_2,S_3....S_k$$는 공집합이 아닌 $$S$$의 부분집합이다
-2. $$S = S_1,\cup S_2,\cup S_k....\cup S_k$$
-3. $$S_1,\cap S_2,\cap S_3....\cap S_k= \varnothing $$
+2. $$S = S_1,\cup S_2,\cup S_k....\cup S_k$$ 이고
+3. $$S_1,\cap S_2,\cap S_3....\cap S_k= \varnothing$$ 이다
 
 
 
