@@ -19,17 +19,20 @@
 
 클래스 생성
 
-class 클래스이름(상속 클래스이름)
-    클래스 변수1
-    클래스 변수2
-    
-    def 클래스 함수1
-    
-    def 클래스 함수2
+class 클래스이름(상속 클래스이름)        
 
-인스턴스 생성
+​    클래스 변수1  
+​    클래스 변수2    
 
-인스턴스 이름 = 클래스 이름()
+​    def 클래스 함수1    
+
+​	def 클래스 함수2    
+
+
+
+인스턴스 생성    
+
+인스턴스 이름 = 클래스 이름()  
     
 - 클래스의 필요성: 변수가 늘어남에 따라 변수와 함수를 같이 취급할 수 있는 도구가 필요해짐
 - 클래스 변수들을 attribute(속성) 이라고 함
@@ -77,7 +80,7 @@ object = example_class()
 
     instance created
 
-
+<br/>
 
 ```python
 class example_class:
@@ -90,18 +93,16 @@ object = example_class('son')
 
      son's instance created
 
-
+  <br/>
 
 ```python
 object.name
 ```
 
 
-
-
     'son'
 
-
+  
 
 - 클래스에서 메소드의 인자로 self가 먼저오면 인스턴스 메소드라고 함
 - 인스턴스가 생성되어 클래스 내의 인스턴스 메소드를 실행하면 메소드의 첫 번째 인자로 self에 인스턴스 명을 대입하여 줌
@@ -245,10 +246,11 @@ my_family.nationality
 
 ### 클래스 상속
 
-class 클래스명(부모 클래스명):
-    클래스 변수1
-    클래스 변수2
-    
+class 클래스명(부모 클래스명):  
+    클래스 변수1  
+    클래스 변수2  
+        
+
     메소드1
     메소드2
 
@@ -272,18 +274,14 @@ calculation.sum(5,7)
 ```
 
 
-
-
     12
 
-
+  
 
 
 ```python
 calculation.sub(5,7)
 ```
-
-
 
 
     -2
@@ -404,28 +402,29 @@ sys.path
 - 모듈을 계층적으로 관리함으로서 공동작업이나 유지 보수등을 효율적으로 할 수 있도록 해놓은 묶음
 - 디렉터리와 모듈로 구성됨
 - 디렉터리에 __init__.py 파일이 있으면 그 디렉터리를 패키지로 인식함
- 
-  
+
+
+
 ### 패키지 안의 모듈
 
 1. import a.b.c
 
-   a,b는 패키지이름 c는 (마지막은) 모듈명이 되어야함
+   a,b는 패키지이름 c는 (마지막은) 모듈명이 되어야함  
 
-   예) import Lecture.History.Korea
-   사용) Lecture.History.Korea.함수()
+   예) import Lecture.History.Korea  
+   사용) Lecture.History.Korea.함수()  
   
-2. from a.b import 모듈명
+2. from a.b import 모듈명  
    사용) 모듈명.함수()
 
-3. from a.b.모듈명 import 함수명
+3. from a.b.모듈명 import 함수명  
    사용) 함수명()
    
-4. from a.b import *
-   사용) 모듈명.함수()
+4. from a.b import *  
+   사용) 모듈명.함수()  
    
-   b는 패키지명이며 디렉터리 b에 있는 __init__.py파일은 반드시 다음 명령문을 포함해야한다
-   __all__ = ['모듈명']
+   b는 패키지명이며 디렉터리 b에 있는 __init__.py파일은 반드시 다음 명령문을 포함해야한다  
+   __all__ = ['모듈명']  
    
-5. from a.b.모듈명 import *
+5. from a.b.모듈명 import *  
    사용) 함수()
