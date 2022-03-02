@@ -133,7 +133,26 @@ $$
 
 해밀턴 회로란 어떤 연결된 그래프에서 **모든 꼭짓점을 한번씩만 지나는** 경로를 가진 회로를 의미한다
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Hamiltonian_path.svg/1024px-Hamiltonian_path.svg.png" width='300'>
 
 
 
+### 해밀턴 경로
 
+해밀턴 회로란 어떤 연결된 그래프에서 **모든 꼭짓점을 한번씩만 지나는** 경로를 가진 그래프를 의미한다
+
+
+
+## 여러 가지 그래프
+
+
+
+그래프 $G$를 평면에 그릴 때 어떤 변도 꼭짓점이 아닌곳에서는 교차하지 않도록 그릴 수 있다면 $G$를 **평면그래프**(planer graph) 라고 한다
+
+
+
+예시)
+
+<img src="https://user-images.githubusercontent.com/92144142/156313551-0ec84076-0caa-44bc-a747-1432a2db5024.png" width='500'>
+
+![image-20220302163530857](C:\Users\gusrn\AppData\Roaming\Typora\typora-user-images\image-20220302163530857.png)
